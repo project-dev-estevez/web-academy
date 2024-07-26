@@ -18,7 +18,7 @@ export class DojoCrudPageComponent {
       title: 'Parte 1: CRUD Backend - Create'
     },
     { 
-      url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/9-roHZ1aHPIw'), 
+      url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/9-roHZ1aHPI'), 
       title: 'Parte 2: CRUD Backend - Read, Update, Delete'
     },
     { 
