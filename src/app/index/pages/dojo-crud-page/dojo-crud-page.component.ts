@@ -27,7 +27,7 @@ export class DojoCrudPageComponent {
     },
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/CgPpUwjNy2s'), 
-      title: 'Continuación Parte 3: CRUD Backend - CRUD Backend - Refinando Soft Delete'
+      title: 'Continuación Parte 3: CRUD Backend - Refinando Soft Delete'
     },
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/jNjP5Xa86rs'), 
@@ -52,6 +52,10 @@ export class DojoCrudPageComponent {
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/VEf9nkUVtlc'), 
       title: 'Parte 9: CRUD Frontend - Tabla Reusable'
+    },
+    { 
+      url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/dpNizXr6x6c'), 
+      title: 'Parte 10: CRUD Frontend - List Department'
     }
   ];
 
