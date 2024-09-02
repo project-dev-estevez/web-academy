@@ -56,7 +56,10 @@ export class DojoCrudPageComponent {
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/dpNizXr6x6c'), 
       title: 'Parte 10: CRUD Frontend - List Department'
+    },
+    { 
+      url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/q4fUDjzs6X4'), 
+      title: 'Parte 11: CRUD Frontend - Department By ID y Soft Delete'
     }
   ];
-
 }
