@@ -61,5 +61,9 @@ export class DojoCrudPageComponent {
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/q4fUDjzs6X4'), 
       title: 'Parte 11: CRUD Frontend - Department By ID y Soft Delete'
     }
+    { 
+      url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/6gRdl_5q4Oc'), 
+      title: 'Gitflow - Subiendo Cambios a Ramas Dev, Pruebas y Productiva'
+    }
   ];
 }
