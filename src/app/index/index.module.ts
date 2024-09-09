@@ -7,6 +7,7 @@ import { OurDojosComponent } from './components/our-dojos/our-dojos.component';
 import { DojoCrudPageComponent } from './pages/dojo-crud-page/dojo-crud-page.component';
 import { SharedModule } from '../shared/shared.module';
 import { DojoGitflowPageComponent } from './pages/dojo-gitflow-page/dojo-gitflow-page.component';
+import { OurSpikesComponent } from './components/our-spikes/our-spikes.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { DojoGitflowPageComponent } from './pages/dojo-gitflow-page/dojo-gitflow
     HomePageComponent,
     OurDojosComponent,
     DojoCrudPageComponent,
-    DojoGitflowPageComponent
+    DojoGitflowPageComponent,
+    OurSpikesComponent
   ],
   imports: [
     CommonModule,
