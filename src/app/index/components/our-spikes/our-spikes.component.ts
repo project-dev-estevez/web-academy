@@ -15,7 +15,7 @@ export class OurSpikesComponent {
   public spikesVideos = [
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/eXP7xC5xZvA'), 
-      title: 'Spike 1 Migrations | Estevez.Jor Academy'
+      title: 'Spike 1: Migrations | Estevez.Jor Academy'
     }, 
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/QueiEWAG_yI'), 
