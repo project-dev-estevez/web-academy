@@ -60,6 +60,10 @@ export class DojoCrudPageComponent {
     { 
       url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/q4fUDjzs6X4'), 
       title: 'Parte 11: CRUD Frontend - Department By ID y Soft Delete'
+    },
+    { 
+      url: this.sanitizer.bypassSecurityTrustResourceUrl('https://www.youtube.com/embed/a-2eFqczFyg'), 
+      title: 'Parte 12: Pagination | Estevez.Jor Academy'
     }
   ];
 }
